@@ -79,7 +79,7 @@ console.log(jogo_cadastro);
       <Header usuario={usuario} />
     <div className={Styles.conteiner}>
       <form onSubmit={editar}>
-        <h1>Cadastrar Jogo</h1>
+        <h1>Editar Jogo</h1>
         <div>
           <label>Título</label>
           <input type="text" name="titulo" />
@@ -112,7 +112,7 @@ console.log(jogo_cadastro);
           <label>URL da Imagem</label>
           <input type="text" name="urlImagem" />
         </div>
-        <button type="submit">Cadastrar</button>
+        <button type="submit">Editar</button>
       </form>
     </div>
     </>
